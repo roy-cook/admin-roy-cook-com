@@ -24,9 +24,9 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-admin-roy-cook-com",
+    "start": "egg-scripts start --title=egg-server-admin-roy-cook-com",
     "stop": "egg-scripts stop --title=egg-server-admin-roy-cook-com",
-    "dev": "egg-bin dev --port",
+    "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
