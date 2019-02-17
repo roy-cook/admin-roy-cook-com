@@ -17,6 +17,7 @@ COPY package.json /home/service
 # 在Docker里eggjs应用要在前台运行
 
 # 安装安装npm模块项目依赖包
+# RUN npm install --production --registry=https://registry.npm.taobao.org
 RUN npm install --production --registry=https://registry.npm.taobao.org
 # 拷贝所有源代码到工作目录
 COPY . /home/service
