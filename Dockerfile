@@ -24,6 +24,3 @@ COPY . /home/service
 EXPOSE 7001
 # 启动node应用
 CMD npm start
-
-# docker build -t node/egg-server .
-# docker run -d --name egg-server -p 7002:7001 node/egg-server
