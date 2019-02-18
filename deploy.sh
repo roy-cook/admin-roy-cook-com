@@ -1,4 +1,6 @@
 pwd
+cd src/github.com/RoyLH/admin-roy-cook-com
+pwd
 ls
 docker stop egg-server
 docker rm egg-server
